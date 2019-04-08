@@ -1,0 +1,13 @@
+name: Agnostic-Apache
+version: 1
+resources:
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: Ubuntu
+      flavor: Small 
+  Cloud_Network_1:
+    type: Cloud.Network
+    properties:
+      name: public
+      networkType: existing
