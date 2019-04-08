@@ -6,7 +6,7 @@ resources:
     properties:
       image: Ubuntu
       flavor: Small
-      tag:
+      tags:
        - key: team
          value: duboc
       networks:
