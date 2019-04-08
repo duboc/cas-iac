@@ -5,7 +5,9 @@ resources:
     type: Cloud.Machine
     properties:
       image: Ubuntu
-      flavor: Small 
+      flavor: Small
+      networks:
+        - name: '${resource.Cloud_Network_1.name}' 
   Cloud_Network_1:
     type: Cloud.Network
     properties:
