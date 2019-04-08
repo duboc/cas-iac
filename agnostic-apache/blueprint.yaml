@@ -6,6 +6,9 @@ resources:
     properties:
       image: Ubuntu
       flavor: Small
+      tag:
+       - key: team
+         value: duboc
       networks:
         - name: '${resource.Cloud_Network_1.name}' 
       cloudConfig: |
