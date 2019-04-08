@@ -1,0 +1,29 @@
+name: Agnostic-Apache
+version: 1
+resources:
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: Ubuntu
+      flavor: Small
+      networks:
+        - name: '${resource.Cloud_Network_1.name}' 
+      cloudConfig: |
+        #cloud-config
+        repo_update: true
+        repo_upgrade: all
+
+        packages:
+         - apache2
+         - mysql-server
+         - php-mysql
+
+        runcmd:
+         - "echo '<?php phpinfo();' > /var/www/index.php"
+         - "rm /var/www/index.html"
+        #cloud-config
+  Cloud_Network_1:
+    type: Cloud.Network
+    properties:
+      name: public
+      networkType: existing
