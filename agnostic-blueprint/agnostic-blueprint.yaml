@@ -1,4 +1,4 @@
-name: Agnostic-Apache
+name: Agnostic-Blueprint
 version: 1
 resources:
   Cloud_Machine_1:
