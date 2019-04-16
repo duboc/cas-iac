@@ -7,7 +7,7 @@ The SE Latam Hack Night on Github provides a challenge with free learning resour
 
 All the content on this site revolves around challenging exercises, with different levels, which align tightly with the common customer operations.
 
-# Pre-requisites 
+# Requirements 
 Amazon account (You have an extra step if you use your own account, but also bonus points!)
 
 GitHub account
