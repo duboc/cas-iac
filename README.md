@@ -19,7 +19,7 @@ To be released during the Hack Night event!
 To be released during the Hack Night event!
 
 
-#Pre-requisites 
+# Pre-requisites 
 Amazon account (You have an extra step if you use your own account, but also bonus points!)
 GitHub account
 Git client installed on your laptop
