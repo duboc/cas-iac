@@ -5,7 +5,7 @@ resources:
     type: Cloud.Machine
     properties:
       image: loki-01
-      flavor: antman-02
+      flavor: antman-01
       networks:
         - name: '${resource.Cloud_Network_1.name}' 
   Cloud_Network_1:
