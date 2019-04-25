@@ -4,8 +4,8 @@ resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: Ubuntu
-      flavor: Small
+      image: loki-01
+      flavor: antman-02
       networks:
         - name: '${resource.Cloud_Network_1.name}' 
   Cloud_Network_1:
