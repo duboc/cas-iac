@@ -40,13 +40,23 @@ Provision Deployment
 ## Level 200 - High Level Activities
 ### It’s just a guide line, do it on your way….. Google is your friend and you can always check the CMBU Blogs :wink: 
 
-Change code to add;
+Change code to add:
+
 Two machines with a Load Balancer (teamname01, teamname02)
+
 Apache installation
+
 Wavefront apache integration (use wavefront-sandbox)
-Add tag; key = Team 
-                value = “Your team’s name”
+
+Add tag:
+ 
+key = Team 
+
+value = “Your team’s name”
+
+
 Commit change to git (command line is a bonus)
+
 Make a new deployment
 
 
@@ -54,7 +64,10 @@ Make a new deployment
 ### It’s just a guide line, do it on your way….. Google is your friend.
 
 Create a CodeStream Pipeline such as:
+
 Task 1, create deployment using latest blueprint
+
 Task 2, approval policy (aduboc@vmware.com)
+
 Task 3, delete deployment
 
