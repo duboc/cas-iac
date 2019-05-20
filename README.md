@@ -24,10 +24,37 @@ Ninja Google search skills
 # Intro & Overview
 
 ## Level 100 - High Level Activities
-To be released during the Hack Night event!
+### It’s just a guide line, do it on your way….. Google is your friend.
+
+Configure AWS environment as cloud destination
+
+Fork git repository for basic blueprint (cas-iac)
+- https://github.com/duboc/cas-iac
+
+Create an integration between your GitHub project and Cloud Assembly
+
+Use your team’s name as your hostname
+
+Provision Deployment 
 
 ## Level 200 - High Level Activities
-To be released during the Hack Night event!
+### It’s just a guide line, do it on your way….. Google is your friend and you can always check the CMBU Blogs :wink: 
+
+Change code to add;
+Two machines with a Load Balancer (teamname01, teamname02)
+Apache installation
+Wavefront apache integration (use wavefront-sandbox)
+Add tag; key = Team 
+                value = “Your team’s name”
+Commit change to git (command line is a bonus)
+Make a new deployment
+
 
 ## Level 300 - High Level Activities
-To be released during the Hack Night event!
+### It’s just a guide line, do it on your way….. Google is your friend.
+
+Create a CodeStream Pipeline such as:
+Task 1, create deployment using latest blueprint
+Task 2, approval policy (aduboc@vmware.com)
+Task 3, delete deployment
+
