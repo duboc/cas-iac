@@ -29,9 +29,11 @@ git clone
 git add
 git commit
 ```
+Great tutorial if you need one: http://www.justait.net/2016/10/github-basics-1.html
 - Create an integration between your GitHub project and Cloud Assembly
 - Use your team’s name as your hostname
 - Provision Deployment 
+
 
 ## Level 200 - High Level Activities
 ### It’s just a guide line, do it on your way….. Google is your friend and you can always check the CMBU Blogs :wink: 
