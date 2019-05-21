@@ -10,7 +10,7 @@ All the content on this site revolves around challenging exercises, with differe
 # Requirements 
 - Amazon account (You have an extra step if you use your own account, but also bonus points!)
 - GitHub account
-- Git client installed on your laptop
+- Git client installed on your laptop (optional)
 - Access to VMware Cloud Assembly (CAS LATAM org, it's going to be provided one day before the event)
 - Access to Wavefront (Sandbox – Workspace One)
 - Ninja Google search skills
