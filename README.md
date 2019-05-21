@@ -39,13 +39,13 @@ Great tutorial if you need one: http://www.justait.net/2016/10/github-basics-1.h
 ## Level 200 - High Level Activities
 ### It’s just a guide line, do it on your way….. Google is your friend and you can always check the CMBU Blogs :wink: 
 
-- Change code to add:
-- Two machines with a Load Balancer 
-  - (teamname01, teamname02)
+Change code to add:
+- Input for different flavors, like:
+  - Small, Medium and Large
 - Apache installation
   - Wavefront apache integration (use wavefront-sandbox)
 - Add tag:
-  - key = Team 
+  - key = team 
   - value = “Your team’s name”
 - Commit change to git (command line is a bonus)
 - Make a new deployment
