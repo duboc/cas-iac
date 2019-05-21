@@ -1,11 +1,11 @@
-name: Agnostic-Blueprint
-version: 1
+name: Agnostic-Blueprint # change the blueprint name to your team's name
+version: 1 # this version number should increase as you change your blueprint code
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: Ubuntu
-      flavor: Small
+      image: Ubuntu # you can set your own Image type on the Infrastructure tab, pay attention to this
+      flavor: Small # you can set your own definition of flavor on the infrastructure tab, pay attention to this too
       networks:
         - name: '${resource.Cloud_Network_1.name}' 
   Cloud_Network_1:
