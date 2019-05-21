@@ -23,7 +23,7 @@ All the content on this site revolves around challenging exercises, with differe
 - Configure AWS environment as cloud destination
 - Fork git repository for basic blueprint (cas-iac)
   - https://github.com/duboc/cas-iac
-Some basic Git commands are:
+- Some basic Git commands are:
 ``` 
 git clone
 git add
@@ -37,12 +37,13 @@ git commit
 ### It’s just a guide line, do it on your way….. Google is your friend and you can always check the CMBU Blogs :wink: 
 
 - Change code to add:
-- Two machines with a Load Balancer (teamname01, teamname02)
+- Two machines with a Load Balancer 
+  - (teamname01, teamname02)
 - Apache installation
-- Wavefront apache integration (use wavefront-sandbox)
+  - Wavefront apache integration (use wavefront-sandbox)
 - Add tag:
-- key = Team 
-- value = “Your team’s name”
+  - key = Team 
+  - value = “Your team’s name”
 - Commit change to git (command line is a bonus)
 - Make a new deployment
 
@@ -51,7 +52,11 @@ git commit
 ### It’s just a guide line, do it on your way….. Google is your friend.
 
 ##### Create a CodeStream Pipeline such as:
-1. create deployment using latest blueprint
-2. approval policy (aduboc@vmware.com)
-3. delete deployment
+1. Create deployment using latest blueprint
+2. Approval policy 
+   - aduboc@vmware.com
+   - emeirelles@vmware.com
+   - tbaeta@vmware.com
+   - astratikopoulo@vmware.com
+3. Delete deployment
 
