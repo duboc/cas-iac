@@ -21,6 +21,7 @@ All the content on this site revolves around challenging exercises, with differe
 ### It’s just a guide line, do it on your way….. Google is your friend.
 
 - Configure AWS environment as cloud destination
+  - Use your group name as a prefix for everything 
 - Fork git repository for basic blueprint (cas-iac)
   - https://github.com/duboc/cas-iac
 - Some basic Git commands are:
