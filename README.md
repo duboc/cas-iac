@@ -57,9 +57,5 @@ Change code to add:
 ##### Create a CodeStream Pipeline such as:
 1. Create deployment using latest blueprint
 2. Approval policy 
-   - aduboc@vmware.com
-   - emeirelles@vmware.com
-   - tbaeta@vmware.com
-   - astratikopoulo@vmware.com
 3. Delete deployment
 
